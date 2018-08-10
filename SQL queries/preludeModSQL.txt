@@ -1,0 +1,6 @@
+SELECT tblA.Time, tblA.OctavePitch as intNoteA, tblB.OctavePitch as intNoteB
+FROM preludeMod.csv as tblA 
+	INNER JOIN preludeMod.csv AS tblB ON  tblA.Time = tblB.Time
+WHERE tblA.Volume > 0 AND tblB.Volume > 0
+	AND tblA.OctavePitch <> tblB.OctavePitch 
+	AND tblA.OctavePitch > tblB.OctavePitch
