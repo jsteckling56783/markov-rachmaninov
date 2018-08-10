@@ -1,0 +1,1 @@
+In the visualization, playedTogether.png, each number on the midi note scale corresponds to a key on a piano. There are several noticeable diagonal line trends, which all happen to have a slope of 1. These turned out to be octave intervals, showing that Rachmaninov uses octaves more fundamentally than other intervals in his pieces.
